@@ -8,4 +8,5 @@ kubectl create -f https://raw.githubusercontent.com/alftio/aksPV/main/postgresql
 
 ## Check the results
 kubectl get statefulset foo-test-db
+
 kubectl get pods -l app=foo-test-db -n default
